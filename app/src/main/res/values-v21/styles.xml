@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseTheme.AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+
+        <!--状态栏颜色-->
+        <item name="android:colorPrimaryDark">@color/theme_color</item>
+        <!--开启专场动画-->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+</resources>
