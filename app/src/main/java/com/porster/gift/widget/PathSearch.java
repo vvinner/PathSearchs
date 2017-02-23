@@ -97,7 +97,7 @@ public class PathSearch extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.drawPath(mPath,mPaint);
+//        canvas.drawPath(mPath,mPaint);动画路径
         if(mNeedBitmap){
             canvas.drawBitmap(mBitmap,pos[0]-mBitmap.getWidth()/2,pos[1]-mBitmap.getHeight()/2,mPaint);
         }
